@@ -5,7 +5,7 @@ Workman / Colemak DH Layout for OLKB Plank Rev6
 ## Compiling and flashing
 
 1. Setup your QMK environment locally (https://docs.qmk.fm/#/newbs_getting_started)
-2. Copy this folder inside: `qmk_firmware/keyboards/planck/keymaps/`
+2. Clone this project inside: `qmk_firmware/keyboards/planck/keymaps/herod2k`
 3. Put the keyboard in reset mode (LWR + RSE + Q)
 4. From the project root folder launch the build/fiash using the docker utility:  
 
