@@ -5,7 +5,7 @@ Workman / Colemak DH Layout for OLKB Plank Rev6
 ## Compiling and flashing
 
 1. Setup your QMK environment locally (https://docs.qmk.fm/#/newbs_getting_started)
-2. Clone this project inside: `qmk_firmware/keyboards/planck/keymaps/herod2k`
+2. Copy this folder inside: `qmk_firmware/keyboards/planck/keymaps/`
 3. Put the keyboard in reset mode (LWR + RSE + Q)
 4. From the project root folder launch the build/fiash using the docker utility:  
 
@@ -20,7 +20,7 @@ Edit the `keyboard-layout.json` and generate a new file
 qmk json2c -o keymap.c keyboard-layout.json
 ```
 
-## Changelog
+## Changelog (from default)
 
 - Removed all layouts except QWERTY
 - Moved Qwerty to level 1
@@ -30,6 +30,8 @@ qmk json2c -o keymap.c keyboard-layout.json
 - Switched ESC with TAB
 - Moved CTRL to the bottom left
 - Moved LEFT ALT on the left of LWR and put FN and OS between them
+- Added right CTRL on keypress on the right arrow
+- Changed BL Cycle for left Shift + left CTRL on hold and Menu on tap
 
 The rest of the configuration follows the default structure
 
