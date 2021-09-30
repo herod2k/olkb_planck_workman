@@ -31,7 +31,7 @@ qmk json2c -o keymap.c keyboard-layout.json
 - Moved CTRL to the bottom left
 - Moved LEFT ALT on the left of LWR and put FN and OS between them
 - Added right CTRL on keypress on the right arrow
-- Changed BL Cycle for left Shift + left CTRL on hold and Menu on tap
+- Changed BL Cycle for left Shift + left CTRL on hold and delete on tap
 
 The rest of the configuration follows the default structure
 
